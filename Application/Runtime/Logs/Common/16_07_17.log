@@ -1,0 +1,6 @@
+[ 2016-07-17T19:47:40+08:00 ] ::1 /RJGC/boke/TP/index.php.admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:Index.php
+

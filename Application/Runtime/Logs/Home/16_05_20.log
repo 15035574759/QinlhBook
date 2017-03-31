@@ -1,0 +1,155 @@
+[ 2016-05-20T16:40:11+08:00 ] ::1 /RJGC/boke/TP/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0894s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0536s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0062s ]
+SQL: SELECT * FROM `book_errasy` WHERE ( id in(7,8,9,10,11) )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY rand() LIMIT 5   [ RunTime:0.0083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014601s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2016-05-20T16:43:53+08:00 ] ::1 /RJGC/boke/TP/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0048s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0046s ]
+SQL: SELECT * FROM `book_errasy` WHERE ( id in(7,8,9,10,11) )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY rand() LIMIT 5   [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2016-05-20T16:44:03+08:00 ] ::1 /RJGC/boke/TP/index.php/Home/Index/student.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0068s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\RJGC\boke\TP\Application\Home\Controller\IndexController.class.php on line 154 and defined D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  LIMIT 0,5   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\RJGC\boke\TP\Application\Home\Controller\IndexController.class.php on line 157 and defined D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_errasy` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0076s ]
+SQL: SELECT * FROM `book_errasy` WHERE ( id in(7,8,9,10,11) )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY id desc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY rand() LIMIT 5   [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083872s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-05-20T16:44:07+08:00 ] ::1 /RJGC/boke/TP/index.php/Home/Index/student/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0063s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\RJGC\boke\TP\Application\Home\Controller\IndexController.class.php on line 154 and defined D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  LIMIT 10,5   [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\RJGC\boke\TP\Application\Home\Controller\IndexController.class.php on line 157 and defined D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_errasy` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `book_errasy` WHERE ( id in(7,8,9,10,11) )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY rand() LIMIT 5   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-05-20T16:44:09+08:00 ] ::1 /RJGC/boke/TP/index.php/Home/Index/read?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `book_comment` [ RunTime:0.0645s ]
+SQL: SELECT `c_id` FROM `book_comment` WHERE ( c_id='18' ) ORDER BY c_id desc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0041s ]
+SQL: SELECT `click` FROM `book_errasy` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `book_errasy` SET `click`='15' WHERE ( id='18' ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_comment` WHERE ( c_id in(18) ) ORDER BY c_id asc  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0048s ]
+SQL: SELECT * FROM `book_errasy` WHERE ( id in(7,8,9,10,11) )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY rand() LIMIT 5   [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+

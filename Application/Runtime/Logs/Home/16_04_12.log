@@ -1,0 +1,32 @@
+[ 2016-04-12T08:26:18+08:00 ] ::1 /boke/TP/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0682s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\boke\TP\Application\Home\Controller\IndexController.class.php on line 10 and defined D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  LIMIT 0,5   [ RunTime:0.0311s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\boke\TP\Application\Home\Controller\IndexController.class.php on line 13 and defined D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_errasy` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002362s ]
+

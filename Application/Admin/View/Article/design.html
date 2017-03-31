@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>文章列表</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Modern Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!-- Bootstrap Core CSS -->
+<link href="__PUBLIC__/admin/index/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<!-- Custom CSS -->
+<link href="__PUBLIC__/admin/index/css/style.css" rel='stylesheet' type='text/css' />
+<link href="__PUBLIC__/admin/index/css/font-awesome.css" rel="stylesheet"> 
+<!-- jQuery -->
+<script src="__PUBLIC__/admin/index/js/jquery.min.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="__PUBLIC__/admin/index/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+     <!-- Navigation -->
+       <!-- 引入公共目录 -->
+        <include file="Public/left"/>
+        <div id="page-wrapper">
+        <div class="col-md-12 graphs">
+     <div class="xs">
+     <h4>文章管理</h4>
+     <div id="search">   
+          <form action="__URL__/design" method="post">
+            <div class="form-group">
+                  <!-- <label class="col-sm-2 control-label" for="selector1">Dropdown Select</label> -->
+                  <div class="col-sm-8">
+                      <select id="selector1" class="form-control1" name="search_sort" style="width:90%;">
+                            <option>==请选择==</option>
+                          <foreach name="title" item="v">
+                            <option value="{$v.s_id}" id="getChd">{$v.s_name}</option>
+                          </foreach>
+                      </select>
+                  </div>
+            </div>
+            <div class="input-group">
+                <input class="form-control1 input-search" name="search" placeholder="请输入标题. . ." type="text" style="width:278px;">
+                <span class="input-group-btn">
+                    <button class="btn btn-success" type="button" id="getTextSearch" style="margin-right:350px;">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+          </form>
+     </div>
+  <div class="panel panel-warning" data-widget="{&quot;draggable&quot;: &quot;false&quot;}" data-widget-static="">
+        <div class="panel-heading">
+          <h2>文章列表</h2>
+          <div class="panel-ctrls" data-actions-container="" data-action-collapse="{&quot;target&quot;: &quot;.panel-body&quot;}"><span class="button-icon has-bg"><i class="ti ti-angle-down"></i></span></div>
+        </div>
+        <div class="panel-body no-padding" style="display: block;">
+          <table class="table table-striped">
+            <tbody>
+                <tr>
+                  <th>ID</th>
+                  <th>标题</th>
+                  <th>分类</th>
+                  <th>点击量</th>
+                  <th>发布人</th>
+                  <th>更新时间</th>
+                  <th>评论</th>
+                  <th>操作</th>
+              </tr>
+              <foreach name="res" item="v">
+              <tr>
+                  <td>{$v.id}</td>
+                  <td><a target="_blank" href="http://localhost/boke/admin/index.php/Home/Index/read?id={$v.id}" title="{$v.bt}">{$v.bt}</a> </td>
+                  <td>{$v.s_name}</td>
+                  <td>{$v.click}</td>
+                  <td>{$v.name}</td>
+                  <td>{$v.time}</td>
+                  <td><a href="__URL__/comment_show">查看</a></td>
+                  <td>
+                      <a class="link-update" href="__URL__/articleUpdate?id={$v.id}">修改</a>
+                      <a class="link-del" href="__URL__/articleDelete?id={$v.id}">删除</a>
+                  </td>
+              </tr>
+              </foreach>
+            </tbody>
+          </table>
+           <div class="list-page">{$page}</div>
+        </div>
+  </div>
+  </div>
+  <div class="copy_layout">
+      <p>Copyright © 2015 Modern. All Rights Reserved | Design by <a href="http://www.17sucai.com/" target="_blank">17素材网</a> </p>
+  </div>
+   </div>
+      </div>
+      <!-- /#page-wrapper -->
+   </div>
+    <!-- /#wrapper -->
+<!-- Nav CSS -->
+<link href="__PUBLIC__/admin/index/css/custom.css" rel="stylesheet">
+<!-- Metis Menu Plugin JavaScript -->
+<script src="__PUBLIC__/admin/index/js/metisMenu.min.js"></script>
+<script src="__PUBLIC__/admin/index/js/custom.js"></script>
+<!-- <script src="__PUBLIC__/admin/index/js/jquery.1.12.js"></script> -->
+</body>
+</html>
+<script>
+  $(function(){
+      //下拉菜单搜索
+      $("#selector1").change(function(){
+        $(".list-page").hide();
+          var s_id = $(this).val();
+          var url = "__URL__/article_class";
+          $.get(url,{'s_id':s_id},function(msg){
+            str = '<tbody>\
+                <tr>\
+                  <th>ID</th>\
+                  <th>标题</th>\
+                  <th>分类</th>\
+                  <th>点击量</th>\
+                  <th>发布人</th>\
+                  <th>更新时间</th>\
+                  <th>评论</th>\
+                  <th>操作</th>\
+              </tr>';
+            for(var i=0;i<msg.length;i++){
+              str += '<tr>\
+                  <td>'+msg[i]['id']+'</td>\
+                  <td><a target="_blank" href="http://localhost/boke/admin/index.php/Home/Index/read?id='+msg[i]['id']+'" title="{$v.bt}">'+msg[i]['bt']+'</a> </td>\
+                  <td>'+msg[i]['s_name']+'</td>\
+                  <td>'+msg[i]['click']+'</td>\
+                  <td>'+msg[i]['name']+'</td>\
+                  <td>'+msg[i]['time']+'</td>\
+                  <td><a href="__URL__/comment_show">查看</a></td>\
+                  <td>\
+                      <a class="link-update" href="#">修改</a>\
+                      <a class="link-del" href="#">删除</a>\
+                  </td>\
+              </tr>\
+              </tbody>';
+            }
+
+              $("table").html(str);//追加替换
+          },'json')
+      })
+
+      //普通搜素
+      $("#getTextSearch").click(function(){
+        $(".list-page").hide();
+        var search = $(":input[name='search']").val();
+          var url = "__URL__/getTextSearch";
+          $.get(url,{'search':search},function(msg){
+            str = '<tbody>\
+                <tr>\
+                  <th>ID</th>\
+                  <th>标题</th>\
+                  <th>点击量</th>\
+                  <th>发布人</th>\
+                  <th>更新时间</th>\
+                  <th width="300px">评论</th>\
+                  <th>操作</th>\
+              </tr>';
+            for(var i=0;i<msg.length;i++){
+              str += '<tr>\
+                  <td>'+msg[i]['id']+'</td>\
+                  <td><a target="_blank" href="http://localhost/boke/admin/index.php/Home/Index/read?id='+msg[i]['id']+'" title="{$v.bt}">'+msg[i]['bt']+'</a> </td>\
+                  <td>'+msg[i]['s_name']+'</td>\
+                  <td>'+msg[i]['click']+'</td>\
+                  <td>'+msg[i]['name']+'</td>\
+                  <td>'+msg[i]['time']+'</td>\
+                  <td><a href="__URL__/comment_show">查看</a></td>\
+                  <td>\
+                      <a class="link-update" href="#">修改</a>\
+                      <a class="link-del" href="#">删除</a>\
+                  </td>\
+              </tr>\
+              </tbody>';
+            }
+            $("table").html(str);//追加替换
+          },'json');
+
+      })
+  })
+</script>
+

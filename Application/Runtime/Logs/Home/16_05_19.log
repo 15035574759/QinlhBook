@@ -1,0 +1,52 @@
+[ 2016-05-19T07:16:08+08:00 ] ::1 /RJGC/boke/TP/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010787s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0619s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.2735s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0127s ]
+SQL: SELECT * FROM `book_errasy` WHERE ( id in(7,8,9,10,11) )  [ RunTime:0.0358s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY id desc LIMIT 5   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY rand() LIMIT 5   [ RunTime:0.0159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.153696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004262s ]
+
+[ 2016-05-19T10:00:52+08:00 ] ::1 /RJGC/boke/TP/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018023s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0778s ]
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  ORDER BY id desc LIMIT 6   [ RunTime:0.0081s ]
+SQL: SELECT * FROM `book_errasy` WHERE ( id in(7,8,9,10,11) )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY id desc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_errasy` ORDER BY rand() LIMIT 5   [ RunTime:0.0098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.059069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.059495s ]
+

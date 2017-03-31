@@ -1,0 +1,28 @@
+<!-- 搜索 -->
+<form action="__URL__/index" method="post" id="myform" name="myform" enctype="multipart/form-data">
+  <div class="zySearch" id="zySearch"></div>
+</form>
+<!--header start-->
+    <div id="header">
+      <if condition="$name eq ''">
+        <h1>个人博客<span style="font-size:15px;"></span></h1>
+      <else/>
+        <h1>个人博客<span style="font-size:15px;">【欢迎 <font color="red">{$name}</font> 光临】<a href="{:U('Index/UserEnd')}">退出</a></span></h1>
+      </if>
+        <p>青春是打开了,就合不上的书。人生是踏上了，就回不了头的路，爱情是扔出了，就收不回的赌注。</p> 
+    </div>
+<!--header end-->
+ <!--nav-->
+     <div id="nav">
+        <ul>
+        <li><a href="{:U('Index/index')}">首页</a></li>
+         <li><a href="{:U('Index/about')}">关于我</a></li>
+         <li><a href="{:U('Leave/shuo')}">碎言碎语</a></li>
+         <li><a href="{:U('Diary/diary')}">个人日记</a></li>
+         <li><a href="{:U('Photo/photo')}">相册展示</a></li>
+         <li><a href="{:U('Index/student')}">学无止境</a></li>
+         <li><a href="{:U('Leave/leave')}">留言板</a></li>
+         <div class="clear"></div>
+        </ul>
+      </div>
+<!--nav end-->

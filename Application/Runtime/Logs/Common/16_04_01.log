@@ -1,0 +1,252 @@
+[ 2016-04-01T08:28:07+08:00 ] ::1 /boke/TP/css/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003709s ]
+ERR: 无法加载模块:Css
+
+[ 2016-04-01T08:28:07+08:00 ] ::1 /boke/TP/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+ERR: 无法加载模块:Js
+
+[ 2016-04-01T08:28:07+08:00 ] ::1 /boke/TP/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003074s ]
+ERR: 无法加载模块:Js
+
+[ 2016-04-01T08:28:07+08:00 ] ::1 /boke/TP/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002002s ]
+ERR: 无法加载模块:Css
+
+[ 2016-04-01T08:28:08+08:00 ] ::1 /boke/TP/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003337s ]
+ERR: 无法加载模块:Js
+
+[ 2016-04-01T08:28:08+08:00 ] ::1 /boke/TP/images/s2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:28:08+08:00 ] ::1 /boke/TP/images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003158s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:28:08+08:00 ] ::1 /boke/TP/images/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:28:08+08:00 ] ::1 /boke/TP/images/my.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003507s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:28:08+08:00 ] ::1 /boke/TP/js/nav.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002951s ]
+ERR: 无法加载模块:Js
+
+[ 2016-04-01T08:28:08+08:00 ] ::1 /boke/TP/images/s.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.003302s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008368s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:36:45+08:00 ] ::1 /boke/TP/images/s1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001986s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:36:45+08:00 ] ::1 /boke/TP/images/s.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002256s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:36:45+08:00 ] ::1 /boke/TP/images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006113s ]
+ERR: 无法加载模块:Images
+
+[ 2016-04-01T08:37:03+08:00 ] ::1 /boke/TP/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002806s ]
+ERR: 无法加载模块:About
+
+[ 2016-04-01T08:37:06+08:00 ] ::1 /boke/TP/shuo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+ERR: 无法加载模块:Shuo
+
+[ 2016-04-01T08:37:58+08:00 ] ::1 /boke/TP/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002560s ]
+ERR: 无法加载模块:About
+
+[ 2016-04-01T08:38:01+08:00 ] ::1 /boke/TP/guestbook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002190s ]
+ERR: 无法加载模块:Guestbook
+
+[ 2016-04-01T08:38:08+08:00 ] ::1 /boke/TP/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002199s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-01T08:38:25+08:00 ] ::1 /boke/TP/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002602s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-01T09:27:12+08:00 ] ::1 /boke/TP/shuo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002086s ]
+ERR: 无法加载模块:Shuo
+
+[ 2016-04-01T09:42:51+08:00 ] ::1 /boke/TP/guestbook.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001555s ]
+ERR: 无法加载模块:Guestbook
+
+[ 2016-04-01T13:47:42+08:00 ] ::1 /boke/TP/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001579s ]
+ERR: 无法加载模块:About
+
+[ 2016-04-01T13:47:45+08:00 ] ::1 /boke/TP/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+ERR: 无法加载模块:Index
+
+[ 2016-04-01T14:17:16+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001512s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:17:19+08:00 ] ::1 /boke/TP/shuo.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+ERR: 无法加载模块:Shuo
+
+[ 2016-04-01T14:17:33+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001530s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:17:49+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001788s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:18:22+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:18:30+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:18:37+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:18:50+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:18:52+08:00 ] ::1 /boke/TP/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002048s ]
+ERR: 无法加载模块:About
+
+[ 2016-04-01T14:19:02+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001473s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:19:17+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001344s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:22:59+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:23:13+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:23:28+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001917s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:24:49+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001960s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:25:02+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001949s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:26:31+08:00 ] ::1 /boke/TP/Public/index/%20%20images/s3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+ERR: 无法加载模块:Public
+
+[ 2016-04-01T14:26:33+08:00 ] ::1 /boke/TP/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+ERR: 无法加载模块:About
+

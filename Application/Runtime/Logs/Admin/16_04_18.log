@@ -1,0 +1,896 @@
+[ 2016-04-18T16:00:45+08:00 ] ::1 /boke/TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2016-04-18T16:01:26+08:00 ] ::1 /boke/TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-04-18T16:01:28+08:00 ] ::1 /boke/TP/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000939s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002428s ]
+
+[ 2016-04-18T16:01:44+08:00 ] ::1 /boke/TP/index.php/Admin/Login/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `book_login` [ RunTime:0.0499s ]
+SQL: SELECT * FROM `book_login` WHERE ( username='秦林慧' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book_login_role` [ RunTime:0.0220s ]
+SQL: SELECT `role_id` FROM `book_login_role` WHERE ( r_id='1' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_role_node` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `book_role_node` INNER JOIN book_node on book_role_node.node_id=book_node.node_id  WHERE ( role_id in(1) )  [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002071s ]
+
+[ 2016-04-18T16:01:45+08:00 ] ::1 /boke/TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008947s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-04-18T16:01:49+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `book_role` [ RunTime:0.0529s ]
+SQL: SELECT * FROM `book_role`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] Undefined variable: page D:\WWW\boke\TP\Application\Runtime\Cache\Admin\966b65895833c4b60a3d421e99f4ebd6.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2016-04-18T16:01:54+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/role_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0171s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=2 )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=4 )  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=14 )  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=22 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=27 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=29 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=33 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=37 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=39 )  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000454s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2016-04-18T16:01:58+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 298 行.
+NOTIC: [8] Undefined index: limit D:\WWW\boke\TP\ThinkPHP\Library\Think\Db\Driver.class.php 第 950 行.
+SQL: SELECT * FROM `book_node` LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_node` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034605s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2016-04-18T16:02:00+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=3 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=5 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=13 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=12 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=11 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=18 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=14 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=15 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=16 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=17 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=22 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=23 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=24 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=25 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=26 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=27 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=28 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=29 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=30 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=31 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=32 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=33 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=34 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=35 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=38 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=39 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=40 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=41 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2016-04-18T16:02:05+08:00 ] ::1 /boke/TP/index.php/Admin/Sort/sort.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `book_errasy_fb` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `book_errasy_fb`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined variable: page D:\WWW\boke\TP\Application\Runtime\Cache\Admin\f16d02774d2beb357158162397bb8ea7.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-04-18T16:02:07+08:00 ] ::1 /boke/TP/index.php/Admin/Sort/sort_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-04-18T16:02:14+08:00 ] ::1 /boke/TP/index.php/Admin/Article/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0126s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  WHERE ( bt like '%%' ) LIMIT 0,5   [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_errasy` WHERE ( bt like '%%' ) LIMIT 1   [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002859s ]
+
+[ 2016-04-18T16:02:18+08:00 ] ::1 /boke/TP/index.php/Admin/Article/article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `book_errasy_fb` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `book_errasy_fb`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2016-04-18T16:02:28+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 298 行.
+NOTIC: [8] Undefined index: limit D:\WWW\boke\TP\ThinkPHP\Library\Think\Db\Driver.class.php 第 950 行.
+SQL: SELECT * FROM `book_node` LIMIT 0,20   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_node` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2016-04-18T16:02:30+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=2 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=3 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=4 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=5 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=13 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=12 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=11 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=18 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=14 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=15 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=16 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=17 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=22 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=23 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=24 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=25 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=26 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=27 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=28 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=30 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=31 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=32 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=33 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=34 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=35 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=37 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=38 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=39 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=40 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=41 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2016-04-18T16:13:37+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+
+[ 2016-04-18T16:18:05+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001960s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+
+[ 2016-04-18T16:18:09+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+
+[ 2016-04-18T16:18:15+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0014s ]
+
+[ 2016-04-18T16:18:34+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+
+[ 2016-04-18T16:18:40+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0012s ]
+
+[ 2016-04-18T16:19:03+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+
+[ 2016-04-18T16:20:23+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0012s ]
+
+[ 2016-04-18T16:22:08+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+
+[ 2016-04-18T16:22:27+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0010s ]
+
+[ 2016-04-18T16:23:23+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+
+[ 2016-04-18T16:30:48+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: $pid D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 328 行.
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2016-04-18T16:31:04+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2016-04-18T16:31:08+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0014s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2016-04-18T16:33:55+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0009s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+
+[ 2016-04-18T16:34:30+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0003s ]
+
+[ 2016-04-18T16:36:25+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0104s ]
+NOTIC: [8] Undefined variable: pid D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 311 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2016-04-18T16:37:46+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0094s ]
+NOTIC: [8] Undefined variable: pid D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 311 行.
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[ 2016-04-18T16:38:25+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0011s ]
+
+[ 2016-04-18T16:38:48+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001427s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0012s ]
+
+[ 2016-04-18T16:39:09+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0011s ]
+
+[ 2016-04-18T16:42:59+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+NOTIC: [8] Undefined index: son D:\WWW\boke\TP\Application\Runtime\Cache\Admin\7c7053700a6edb3f71b1b504144c53ea.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000983s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001942s ]
+
+[ 2016-04-18T16:43:06+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+NOTIC: [8] Undefined variable: reave D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 332 行.
+
+[ 2016-04-18T16:44:15+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0007s ]
+
+[ 2016-04-18T16:49:36+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003099s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2016-04-18T16:50:22+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001980s ]
+
+[ 2016-04-18T16:50:55+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003078s ]
+
+[ 2016-04-18T16:52:02+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add_pro
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0090s ]
+SQL: INSERT INTO `book_node` (`title`,`pid`,`controller`,`action`) VALUES ('测试','1','Ceshi','ceshi') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2016-04-18T16:52:04+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0083s ]
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 298 行.
+NOTIC: [8] Undefined index: limit D:\WWW\boke\TP\ThinkPHP\Library\Think\Db\Driver.class.php 第 950 行.
+SQL: SELECT * FROM `book_node` LIMIT 0,20   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_node` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-04-18T16:52:06+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-04-18T17:03:55+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/node_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `book_node`  [ RunTime:0.0004s ]
+

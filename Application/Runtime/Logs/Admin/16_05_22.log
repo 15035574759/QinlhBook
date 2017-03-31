@@ -1,0 +1,143 @@
+[ 2016-05-22T20:46:20+08:00 ] ::1 /RJGC/boke/TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+
+[ 2016-05-22T20:46:22+08:00 ] ::1 /RJGC/boke/TP/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-05-22T20:46:28+08:00 ] ::1 /RJGC/boke/TP/index.php/Admin/Login/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `book_login` [ RunTime:0.0750s ]
+SQL: SELECT * FROM `book_login` WHERE ( username='秦林慧' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_login_role` [ RunTime:0.0364s ]
+SQL: SELECT `role_id` FROM `book_login_role` WHERE ( r_id='1' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `book_role_node` [ RunTime:0.0949s ]
+SQL: SELECT * FROM `book_role_node` INNER JOIN book_node on book_role_node.node_id=book_node.node_id  WHERE ( role_id in(1) )  [ RunTime:0.0220s ]
+
+[ 2016-05-22T20:46:28+08:00 ] ::1 /RJGC/boke/TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-05-22T20:46:31+08:00 ] ::1 /RJGC/boke/TP/index.php/Admin/Article/design.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `book_errasy` [ RunTime:0.0049s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT * FROM `book_errasy` INNER JOIN book_errasy_fb on book_errasy.s_id=book_errasy_fb.s_id  WHERE ( bt like '%%' ) LIMIT 0,5   [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `book_errasy` WHERE ( bt like '%%' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-05-22T20:46:34+08:00 ] ::1 /RJGC/boke/TP/index.php/Admin/Diary/diary.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `book_shuoshuo` [ RunTime:0.0327s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\RJGC\boke\TP\Application\Admin\Controller\DiaryController.class.php on line 16 and defined D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+NOTIC: [8] Undefined offset: 0 D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT * FROM `book_shuoshuo` LIMIT 0,5   [ RunTime:0.0203s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\WWW\RJGC\boke\TP\Application\Admin\Controller\DiaryController.class.php on line 19 and defined D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1777 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1785 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1788 行.
+NOTIC: [8] Undefined variable: where D:\WWW\RJGC\boke\TP\ThinkPHP\Library\Think\Model.class.php 第 1796 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `book_shuoshuo` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: bt D:\WWW\RJGC\boke\TP\Application\Runtime\Cache\Admin\1d7861100bccac70d5f586e3e1acb63e.php 第 100 行.
+NOTIC: [8] Undefined index: bt D:\WWW\RJGC\boke\TP\Application\Runtime\Cache\Admin\1d7861100bccac70d5f586e3e1acb63e.php 第 100 行.
+NOTIC: [8] Undefined index: bt D:\WWW\RJGC\boke\TP\Application\Runtime\Cache\Admin\1d7861100bccac70d5f586e3e1acb63e.php 第 100 行.
+NOTIC: [8] Undefined index: bt D:\WWW\RJGC\boke\TP\Application\Runtime\Cache\Admin\1d7861100bccac70d5f586e3e1acb63e.php 第 100 行.
+NOTIC: [8] Undefined index: bt D:\WWW\RJGC\boke\TP\Application\Runtime\Cache\Admin\1d7861100bccac70d5f586e3e1acb63e.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2016-05-22T20:46:38+08:00 ] ::1 /RJGC/boke/TP/index.php/Admin/Diary/diary_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001772s ]
+

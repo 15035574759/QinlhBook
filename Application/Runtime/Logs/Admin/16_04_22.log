@@ -1,0 +1,229 @@
+[ 2016-04-22T07:47:41+08:00 ] ::1 /boke/TP/index.php/Admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+
+[ 2016-04-22T07:47:43+08:00 ] ::1 /boke/TP/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-04-22T07:47:49+08:00 ] ::1 /boke/TP/index.php/Admin/Login/user_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `book_login` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `book_login` WHERE ( username='秦林慧' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `book_login_role` [ RunTime:0.0463s ]
+SQL: SELECT `role_id` FROM `book_login_role` WHERE ( r_id='1' )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `book_role_node` [ RunTime:0.0241s ]
+SQL: SELECT * FROM `book_role_node` INNER JOIN book_node on book_role_node.node_id=book_node.node_id  WHERE ( role_id in(1) )  [ RunTime:0.0178s ]
+
+[ 2016-04-22T07:47:49+08:00 ] ::1 /boke/TP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-04-22T07:47:52+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `book_role` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `book_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: page D:\WWW\boke\TP\Application\Runtime\Cache\Admin\966b65895833c4b60a3d421e99f4ebd6.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-04-22T07:47:55+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/role_save?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `book_role` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `book_role` WHERE ( role_id='3' )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `book_role_node` [ RunTime:0.0096s ]
+SQL: SELECT `node_id` FROM `book_role_node` WHERE ( role_id='3' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `book_node` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `book_node` WHERE ( pid=0 )  [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=2 )  [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=4 )  [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=14 )  [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=22 )  [ RunTime:0.0004s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=27 )  [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=29 )  [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=33 )  [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=37 )  [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 211 行.
+SQL: SELECT * FROM `book_node` WHERE ( pid=39 )  [ RunTime:0.0003s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\WWW\boke\TP\Application\Admin\Controller\LimitsController.class.php 第 222 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 95 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+NOTIC: [8] Undefined index: p D:\WWW\boke\TP\Application\Runtime\Cache\Admin\8ca2d8541fc13afabfa24b967fc8caf9.php 第 97 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003850s ]
+
+[ 2016-04-22T07:48:24+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/login_show.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `book_login` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `book_login`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Undefined variable: page D:\WWW\boke\TP\Application\Runtime\Cache\Admin\dbedbd599ce91e47638caa57866c8f84.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002861s ]
+
+[ 2016-04-22T07:48:27+08:00 ] ::1 /boke/TP/index.php/Admin/Limits/login_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `book_role` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `book_role`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000277s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001549s ]
+
